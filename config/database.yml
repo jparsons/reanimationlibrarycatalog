@@ -2,7 +2,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: reanima2_development
+  database: reanimation_development
   pool: 5
   username:
   password:
@@ -10,7 +10,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: reanimation_library_test
+  database: reanimation_test
   pool: 5
   username:
   password:
@@ -18,7 +18,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: reanimation_library
+  database: reanimation_production
   pool: 5
   username:
   password:
